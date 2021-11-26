@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'api_paises_python_mongodb',
+    'apiPythonMongodb',
 ]
 
 MIDDLEWARE = [
@@ -51,7 +51,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'api_paises_python_mongodb.urls'
+ROOT_URLCONF = 'apiPythonMongodb.urls'
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'api_paises_python_mongodb.wsgi.application'
+WSGI_APPLICATION = 'apiPythonMongodb.wsgi.application'
 
 
 # Database

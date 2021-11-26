@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'api_paises_python_mongodb.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'apiPythonMongodb.settings')
 
 application = get_asgi_application()
